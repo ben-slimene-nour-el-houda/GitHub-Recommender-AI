@@ -1,11 +1,11 @@
-# 🔍 GitHub Repository Recommender (AI)
+# GitHub Repository Recommender (AI)
 
 **AI-powered GitHub repository recommender** based on hybrid embeddings (semantic + technical + numerical features) and FAISS similarity search.  
 This tool helps you quickly find the most relevant GitHub repositories for ML/AI projects, books, frameworks, or specifications.
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Hybrid vector representation**:
   - **Semantic embeddings** via SentenceTransformer `"all-MiniLM-L6-v2"`
@@ -18,12 +18,12 @@ This tool helps you quickly find the most relevant GitHub repositories for ML/AI
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/yourusername/github-repo-recommender.git
-cd github-repo-recommender
+git clone https://github.com/ben-slimene-nour-el-houda/GitHub-Recommender-AI.git
+cd GitHub-Recommender-AI
 ```
 Create a Python environment (recommended):
 
