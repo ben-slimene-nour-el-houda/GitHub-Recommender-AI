@@ -37,8 +37,8 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
-🖥️ Run the application
-.
+Run the application
+<br>
 1️⃣ Start the FastAPI backend:
 
 ```bash
