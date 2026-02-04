@@ -25,7 +25,7 @@ This tool helps you quickly find the most relevant GitHub repositories for ML/AI
 git clone https://github.com/yourusername/github-repo-recommender.git
 cd github-repo-recommender
 ```
-Créer un environnement Python (recommandé) :
+Create a Python environment (recommended):
 
 ```bash
 Copy code
@@ -33,26 +33,21 @@ python -m venv venv
 source venv/bin/activate      # Linux / macOS
 venv\Scripts\activate         # Windows
 ```
-Installer les dépendances :
+Install dependencies:
 
 ```bash
 Copy code
 pip install -r requirements.txt
-```
+🖥️ Run the application
+1️⃣ Start the FastAPI backend:
 
-🖥️ Lancer l’application
-1️⃣ Démarrer le backend FastAPI :
-
-```bash
+bash
+Copy code
 cd backend
 uvicorn main:app --reload --host 127.0.0.1 --port 8000
-```
-2️⃣ Lancer l’interface Streamlit :
+2️⃣ Launch the Streamlit interface:
 
-```bash
+bash
+Copy code
 cd ..
 streamlit run app.py
-```
-3️⃣ Accéder ensuite à l’interface via : http://localhost:8501
-Streamlit interface shows metadata and similarity info
-
