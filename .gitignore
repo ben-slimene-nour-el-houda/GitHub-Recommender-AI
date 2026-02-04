@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+venv/
+.env
+
+*.npy
+*.npz
+*.jsonl
+
+
+*.bin
+
+.vscode/
+.idea/
