@@ -28,7 +28,6 @@ cd github-repo-recommender
 Create a Python environment (recommended):
 
 ```bash
-Copy code
 python -m venv venv
 source venv/bin/activate      # Linux / macOS
 venv\Scripts\activate         # Windows
@@ -36,17 +35,16 @@ venv\Scripts\activate         # Windows
 Install dependencies:
 
 ```bash
-Copy code
 pip install -r requirements.txt
+```
 🖥️ Run the application
 1️⃣ Start the FastAPI backend:
 
-bash
-Copy code
+```bash
 cd backend
 uvicorn main:app --reload --host 127.0.0.1 --port 8000
-2️⃣ Launch the Streamlit interface:
-
+```
+2️⃣ Launch the Streamlit interface
 bash
 Copy code
 cd ..
