@@ -38,6 +38,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 🖥️ Run the application
+.
 1️⃣ Start the FastAPI backend:
 
 ```bash
@@ -45,7 +46,6 @@ cd backend
 uvicorn main:app --reload --host 127.0.0.1 --port 8000
 ```
 2️⃣ Launch the Streamlit interface
-bash
-Copy code
-cd ..
+```bash
 streamlit run app.py
+```
