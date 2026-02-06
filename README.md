@@ -19,19 +19,25 @@ This tool helps you quickly find the most relevant GitHub repositories for ML/AI
 ---
 ## Data Collection (GitHub GraphQL API)
 The dataset of GitHub repositories is collected programmatically using the GitHub GraphQL API.
-Steps:
-Create a GitHub Personal Access Token (PAT)
-Go to GitHub Settings → Developer Settings → Personal Access Tokens → Tokens (classic)�
+Steps:<br>
+Create a GitHub Personal Access Token (PAT)<br>
+Go to GitHub Settings → Developer Settings → Personal Access Tokens → Tokens (classic)→
 Generate a token with repo permissions
+<br>
 Search domains
+<br>
 Example domains: machine-learning, deep-learning, data-engineering, devops, etc.
 GraphQL Query
+<br>
 Collect repository info like: name, description, README, stars, forks, languages, topics, pushed date.
+<br>
 Pagination & Rate Limiting
 GitHub GraphQL API returns 50 repositories per request
 Use endCursor for pagination until hasNextPage = False
 Include delays (time.sleep) to respect rate limits
+<br>
 Save Data
+<br>
 Save repositories in JSONL format for preprocessing
 <br>
 ## Installation
