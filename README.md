@@ -100,8 +100,5 @@ You can fine-tune the recommendation algorithm by adjusting the weights in `back
 
 ---
 
-## 🤝 Contributing & Support
+## Contributing & Support
 Built for the open-source community. If you find this project helpful, please give it a **⭐ Star** on GitHub!
-
-**Maintainer**: [Nour El Houda](https://github.com/ben-slimene-nour-el-houda)
-**AI Partner**: Antigravity by Google DeepMind
