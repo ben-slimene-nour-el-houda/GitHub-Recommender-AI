@@ -1,4 +1,4 @@
-# 🚀 GitQuest AI: Smart Repository Discovery
+#  GitQuest AI: Smart Repository Discovery
 
 [![FastAPI](https://img.shields.io/badge/Backend-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![React](https://img.shields.io/badge/Frontend-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org/)
@@ -34,7 +34,7 @@ graph TD
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### 📦 Option 1: Docker (Recommended)
 The easiest way to get GitQuest AI running is with Docker.
