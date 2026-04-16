@@ -1,4 +1,5 @@
 import json
+import os
 import numpy as np
 import pandas as pd
 import faiss
@@ -12,8 +13,9 @@ from scipy.sparse import load_npz
 # -----------------------------
 # Paths
 # -----------------------------
-DATA_DIR = "C:\\Users\\MSI\\Desktop\\Github\\data\\processed"
-FAISS_INDEX_PATH = "C:\\Users\\MSI\\Desktop\\Github\\index\\faiss_index_cpu.bin"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DATA_DIR = os.path.join(BASE_DIR, "data", "processed")
+FAISS_INDEX_PATH = os.path.join(BASE_DIR, "index", "faiss_index_cpu.bin")
 
 # -----------------------------
 # Device
